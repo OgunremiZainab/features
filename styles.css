@@ -11,7 +11,6 @@ section {
 .services h2 {
     padding-left: 25px;
     padding-top: 20px;
-
 }
 
 .carousel-inner {
@@ -22,6 +21,10 @@ section {
     margin: 0.5em;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, .18);
     border-radius: 0;
+}
+
+.card-body {
+    height: 250px;
 }
 
 .img-wrapper {
@@ -56,12 +59,12 @@ img {
     color: white;
 }
 
-
  .customers_container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px;
+    align-items: center;
 }
 
 .reviews img {
@@ -71,8 +74,7 @@ img {
 }
 
 .reviews {
-    width: 400px;
-   margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .reviews_content {
@@ -93,11 +95,6 @@ img {
     text-decoration: none;
     border-bottom: #1A8003 2px solid;
 } 
-
-.meals {
-    width: 93%;
-    margin: auto;
-}
 
 .meals h2 {
     margin-top: 60px;
@@ -147,8 +144,8 @@ p {
         height: 24vw;
     }
 
-   
 }
+
 
 @media screen and (min-width : 770px) {
     .meals {
@@ -159,6 +156,10 @@ p {
         display: flex;
         width: 100%;
       }
+
+      .customers_container {
+        gap: 70px;
+    }
 
 }
 
