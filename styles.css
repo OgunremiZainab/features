@@ -1,4 +1,18 @@
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
 
+section {
+    margin-top: 60px;
+}
+
+.services h2 {
+    padding-left: 25px;
+    padding-top: 20px;
+
+}
 
 .carousel-inner {
     padding: 1em;
@@ -32,12 +46,90 @@ img {
     top: 50%;
     transform: translateY(-50%);
     opacity: .5;
-
 }
 
 .carousel-control-prev:hover, .carousel-control-next:hover {
     opacity: .8;
 }
+
+.carousel button {
+    color: white;
+}
+
+
+ .customers_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.reviews img {
+    width: 100%;
+    height: auto;
+    max-width: 333px;
+}
+
+.reviews {
+    width: 400px;
+   margin-bottom: 50px;
+}
+
+.reviews_content {
+    width: 333px;
+}
+
+.reviews_content h4 {
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+.reviews_content p {
+    height: 100px;
+}
+
+.reviews a {
+    color: #1A8003;
+    text-decoration: none;
+    border-bottom: #1A8003 2px solid;
+} 
+
+.meals {
+    width: 93%;
+    margin: auto;
+}
+
+.meals h2 {
+    margin-top: 60px;
+}
+
+.meals_flex {
+    width: 325px;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+
+
+/* typography */
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+
 
 
 @media screen and (min-width : 576px) {
@@ -54,5 +146,19 @@ img {
     .img-wrapper {
         height: 24vw;
     }
-    
+
+   
 }
+
+@media screen and (min-width : 770px) {
+    .meals {
+        width: 100%;
+    }
+
+    .meals_flex {
+        display: flex;
+        width: 100%;
+      }
+
+}
+
